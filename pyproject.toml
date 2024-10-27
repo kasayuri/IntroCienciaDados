@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "data-science"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "^6.29.5"
+numpy = "^2.1"
+pandas = "^2.2"
+matplotlib = "^3.9"
+scikit-learn = "^1.5.1"
+
+[tool.poetry.group.graficos]
+
+[tool.poetry.group.graficos.dependencies]
+seaborn = "^0.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
